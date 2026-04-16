@@ -1,0 +1,350 @@
+html,body{
+  height:100%;
+  overflow:auto;
+}
+
+/* Page Layout */
+
+.yield-monitoring{
+  height:100vh;
+  background:#f5f6f8;
+  font-family:"Segoe UI", sans-serif;
+
+  display:flex;
+  flex-direction:column;
+
+  overflow-y:auto;   /* IMPORTANT */
+}
+
+/* Header */
+
+.yield-header{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:16px 20px;
+  color:white;
+  background:linear-gradient(90deg,#8b5cf6,#6d28d9);
+  font-weight:600;
+  font-size:18px;
+}
+
+.back-button{
+  background:none;
+  border:none;
+  color:white;
+  font-size:28px;
+  cursor:pointer;
+}
+
+.yield-header h1{
+  font-size:20px;
+  font-weight:600;
+  margin:0;
+}
+
+/* Content */
+
+.yield-content{
+  padding:20px;
+  flex:1;
+  overflow-y:auto;   /* Enables scrolling */
+}
+
+/* Summary Cards */
+
+.summary-cards{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  margin-bottom:25px;
+}
+
+.summary-card{
+  background:white;
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.05);
+}
+
+.summary-card-header{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  color:#6b7280;
+  font-size:14px;
+  margin-bottom:10px;
+}
+
+.summary-card-icon{
+  font-size:18px;
+}
+
+.summary-card-value{
+  font-size:30px;
+  font-weight:700;
+  color:#1f2937;
+}
+
+.summary-card-subtitle{
+  margin-top:5px;
+  font-size:13px;
+  color:#16a34a;
+}
+
+.summary-card-detail{
+  margin-top:5px;
+  font-size:13px;
+  color:#6b7280;
+}
+
+/* Section Title */
+
+.section-title{
+  font-size:18px;
+  font-weight:600;
+  margin-bottom:15px;
+  color:#1f2937;
+}
+
+/* Crop Cards */
+
+.crops-list{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.crop-card{
+  background:white;
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.05);
+}
+
+/* Crop Header */
+
+.crop-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:15px;
+}
+
+.crop-title{
+  font-size:20px;
+  margin:0;
+  color:#1f2937;
+}
+
+.crop-subtitle{
+  font-size:14px;
+  color:#6b7280;
+}
+
+/* Status Badge */
+
+.crop-status-badge{
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:13px;
+  font-weight:600;
+}
+
+.crop-status-badge.good{
+  background:#dcfce7;
+  color:#16a34a;
+}
+
+.crop-status-badge.fair{
+  background:#fef3c7;
+  color:#d97706;
+}
+
+.crop-status-badge.poor{
+  background:#fee2e2;
+  color:#dc2626;
+}
+
+/* Growth Progress */
+
+.growth-progress-section{
+  margin:15px 0;
+}
+
+.progress-label{
+  display:flex;
+  justify-content:space-between;
+  font-size:14px;
+  margin-bottom:6px;
+  color:#374151;
+}
+
+.progress-percentage{
+  font-weight:600;
+}
+
+.progress-bar-container{
+  width:100%;
+  height:8px;
+  background:#e5e7eb;
+  border-radius:8px;
+  overflow:hidden;
+}
+
+.progress-bar-fill{
+  height:100%;
+  background:linear-gradient(90deg,#8b5cf6,#a78bfa);
+  border-radius:8px;
+  transition:width .4s ease;
+}
+
+/* Crop Metrics */
+
+.crop-metrics{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin:15px 0;
+}
+
+.metric-item{
+  display:flex;
+  flex-direction:column;
+}
+
+.metric-label{
+  font-size:13px;
+  color:#6b7280;
+}
+
+.metric-value{
+  font-size:16px;
+  font-weight:600;
+  color:#1f2937;
+}
+
+/* Analysis Button */
+
+.analysis-button{
+  width:100%;
+  border:2px solid #8b5cf6;
+  background:white;
+  padding:12px;
+  border-radius:10px;
+  font-weight:600;
+  color:#8b5cf6;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.analysis-button:hover{
+  background:#f3f0ff;
+}
+
+/* Empty State */
+
+.empty-state{
+  text-align:center;
+  margin-top:40px;
+}
+
+.empty-state-icon{
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+.empty-state-title{
+  font-size:18px;
+  font-weight:600;
+}
+
+.empty-state-text{
+  font-size:14px;
+  color:#6b7280;
+}
+
+/* Modal */
+
+.analysis-modal-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.4);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:999;
+}
+
+.analysis-modal{
+  width:90%;
+  max-width:500px;
+  background:white;
+  border-radius:14px;
+  padding:20px;
+}
+
+.analysis-modal-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.close-modal-btn{
+  background:none;
+  border:none;
+  font-size:20px;
+  cursor:pointer;
+}
+
+/* Health Metrics */
+
+.health-metrics-grid{
+  display:grid;
+  gap:20px;
+}
+
+.health-metric{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.metric-header{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+.metric-bar-container{
+  height:8px;
+  background:#e5e7eb;
+  border-radius:8px;
+  overflow:hidden;
+}
+
+.metric-bar-fill{
+  height:100%;
+  border-radius:8px;
+}
+
+.metric-percentage{
+  font-size:13px;
+  color:#374151;
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+  .summary-cards{
+    grid-template-columns:1fr;
+  }
+
+  .crop-metrics{
+    grid-template-columns:1fr;
+    gap:6px;
+  }
+
+}

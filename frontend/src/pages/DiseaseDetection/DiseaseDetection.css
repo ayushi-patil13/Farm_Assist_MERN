@@ -1,0 +1,185 @@
+.disease-detection-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header */
+.disease-header {
+  background: #EF4444;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: white;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.back-icon {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.disease-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Main Content */
+.disease-content {
+  flex: 1;
+  padding: 24px 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 100px;
+}
+
+/* Upload Section */
+.upload-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.camera-icon-wrapper {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background: linear-gradient(135deg, #FEE2E2 0%, #FECACA 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+.camera-icon {
+  font-size: 48px;
+}
+
+.upload-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 8px 0;
+}
+
+.upload-subtitle {
+  font-size: 14px;
+  color: #6B7280;
+  margin: 0 0 32px 0;
+  line-height: 1.5;
+  padding: 0 20px;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.take-photo-button {
+  background: #EF4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+
+.take-photo-button:hover {
+  background: #DC2626;
+}
+
+.upload-gallery-button {
+  background: white;
+  color: #EF4444;
+  border: 2px solid #EF4444;
+  border-radius: 8px;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.upload-gallery-button:hover {
+  background: #FEF2F2;
+}
+
+.button-icon {
+  font-size: 20px;
+}
+
+/* Tips Section */
+.tips-section {
+  background: #F9FAFB;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.tips-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tips-icon {
+  font-size: 20px;
+}
+
+.tips-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1F2937;
+}
+
+.tips-list {
+  margin: 0;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.tip-item {
+  font-size: 14px;
+  color: #4B5563;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.tip-item:last-child {
+  margin-bottom: 0;
+}

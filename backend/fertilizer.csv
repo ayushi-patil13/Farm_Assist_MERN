@@ -1,0 +1,115 @@
+Crop,Soil_Type,Temperature,Nitrogen,Phosphorus,Potassium,Fertilizer,Type,Dosage,Stage,Timing,Benefits,Caution
+
+Rice,Clayey,26,50,35,35,Urea,Chemical,120 kg/hectare,Vegetative,Split application,Boosts vegetative growth,Avoid dry soil
+Rice,Clayey,26,50,35,35,Compost,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil fertility,Use decomposed compost
+Rice,Loamy,30,70,50,45,DAP,Chemical,130 kg/hectare,Basal,Before sowing,Enhances root growth,Avoid excess use
+Rice,Loamy,30,70,50,45,Vermicompost,Organic,3 tons/hectare,Vegetative,Before irrigation,Improves soil microbes,Maintain moisture
+
+Wheat,Loamy,20,45,30,20,DAP,Chemical,100 kg/hectare,Basal,Before sowing,Promotes root development,Avoid overdose
+Wheat,Loamy,20,45,30,20,Farmyard Manure,Organic,5 tons/hectare,Basal,Pre-planting,Improves soil health,Use well-rotted manure
+Wheat,Sandy,22,48,32,22,NPK,Chemical,110 kg/hectare,Vegetative,Split doses,Balanced nutrition,Avoid water stress
+Wheat,Sandy,22,48,32,22,Compost,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil texture,Apply evenly
+
+Maize,Loamy,25,65,30,28,Urea,Chemical,120 kg/hectare,Vegetative,Split doses,Promotes leaf growth,Avoid water stress
+Maize,Loamy,25,65,30,28,Vermicompost,Organic,3 tons/hectare,Vegetative,Before irrigation,Enhances microbes,Maintain moisture
+Maize,Sandy,28,75,40,35,NPK,Chemical,130 kg/hectare,Vegetative,Top dressing,Improves yield,Avoid overuse
+Maize,Sandy,28,75,40,35,Compost,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil fertility,Apply evenly
+
+Barley,Sandy,18,35,20,15,NPK,Chemical,90 kg/hectare,Basal,At sowing,Balanced nutrients,Avoid overdose
+Barley,Sandy,18,35,20,15,Farmyard Manure,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil health,Apply evenly
+
+Jowar (Sorghum),Sandy,30,45,20,20,Urea,Chemical,100 kg/hectare,Vegetative,Split application,Boosts biomass,Avoid dry soil
+Jowar (Sorghum),Sandy,30,45,20,20,Compost,Organic,3 tons/hectare,Basal,Pre-planting,Improves soil structure,Maintain moisture
+
+Bajra (Pearl Millet),Sandy,32,40,20,20,Urea,Chemical,90 kg/hectare,Vegetative,Split application,Enhances growth,Avoid drought stress
+Bajra (Pearl Millet),Sandy,32,40,20,20,Green Manure,Organic,3 tons/hectare,Basal,Pre-planting,Improves fertility,Incorporate properly
+
+Ragi (Finger Millet),Loamy,25,35,25,20,DAP,Chemical,80 kg/hectare,Basal,Before sowing,Improves roots,Avoid overuse
+Ragi (Finger Millet),Loamy,25,35,25,20,Compost,Organic,3 tons/hectare,Basal,Pre-planting,Enhances soil health,Use decomposed compost
+
+Gram (Chana),Loamy,24,20,40,20,SSP,Chemical,70 kg/hectare,Basal,Before sowing,Improves nodulation,Avoid excess
+Gram (Chana),Loamy,24,20,40,20,Vermicompost,Organic,3 tons/hectare,Basal,Pre-planting,Improves soil microbes,Maintain moisture
+
+Tur (Arhar),Loamy,28,25,45,20,DAP,Chemical,90 kg/hectare,Basal,Before sowing,Enhances root growth,Avoid overuse
+Tur (Arhar),Loamy,28,25,45,20,Green Manure,Organic,4 tons/hectare,Basal,Pre-planting,Improves fertility,Incorporate well
+
+Moong,Sandy,30,20,40,20,SSP,Chemical,60 kg/hectare,Basal,Before sowing,Improves yield,Avoid excess
+Moong,Sandy,30,20,40,20,Compost,Organic,3 tons/hectare,Basal,Pre-planting,Improves soil,Avoid waterlogging
+
+Urad,Sandy,29,22,35,20,SSP,Chemical,60 kg/hectare,Basal,Before sowing,Enhances growth,Avoid excess
+Urad,Sandy,29,22,35,20,Vermicompost,Organic,3 tons/hectare,Basal,Pre-planting,Improves microbes,Maintain moisture
+
+Masoor,Loamy,22,28,35,22,DAP,Chemical,70 kg/hectare,Basal,Before sowing,Improves roots,Avoid overdose
+Masoor,Loamy,22,28,35,22,Compost,Organic,3 tons/hectare,Basal,Pre-planting,Improves soil fertility,Use decomposed compost
+
+Sugarcane,Clayey,30,100,50,60,Urea,Chemical,200 kg/hectare,Vegetative,Split application,Boosts yield,Avoid excess nitrogen
+Sugarcane,Clayey,30,100,50,60,Pressmud Compost,Organic,6 tons/hectare,Basal,Pre-planting,Improves carbon,Apply evenly
+
+Cotton,Black,32,80,40,40,NPK,Chemical,150 kg/hectare,Flowering,Top dressing,Improves boll formation,Avoid waterlogging
+Cotton,Black,32,80,40,40,Farmyard Manure,Organic,5 tons/hectare,Basal,Pre-planting,Improves fertility,Use composted manure
+
+Jute,Alluvial,28,60,30,30,Urea,Chemical,120 kg/hectare,Vegetative,Split doses,Improves fiber quality,Avoid excess
+Jute,Alluvial,28,60,30,30,Compost,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil structure,Apply evenly
+
+Groundnut,Sandy,30,25,40,30,SSP,Chemical,80 kg/hectare,Basal,Before sowing,Improves pod growth,Avoid excess
+Groundnut,Sandy,30,25,40,30,Gypsum + Compost,Organic,3 tons/hectare,Basal,Pre-planting,Improves calcium levels,Apply evenly
+
+Mustard,Loamy,22,40,30,20,DAP,Chemical,100 kg/hectare,Basal,Before sowing,Improves yield,Avoid overdose
+Mustard,Loamy,22,40,30,20,Farmyard Manure,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil health,Use decomposed manure
+
+Soybean,Loamy,26,30,50,20,DAP,Chemical,90 kg/hectare,Basal,Before sowing,Improves nodulation,Avoid excess
+Soybean,Loamy,26,30,50,20,Rhizobium Compost,Organic,3 tons/hectare,Basal,Pre-planting,Enhances nitrogen fixation,Maintain moisture
+
+Sunflower,Loamy,27,50,40,40,NPK,Chemical,120 kg/hectare,Vegetative,Top dressing,Improves seed quality,Avoid overuse
+Sunflower,Loamy,27,50,40,40,Compost,Organic,4 tons/hectare,Basal,Pre-planting,Improves fertility,Apply evenly
+
+Sesame (Til),Sandy,30,30,25,20,Urea,Chemical,70 kg/hectare,Vegetative,Split doses,Improves yield,Avoid drought
+Sesame (Til),Sandy,30,30,25,20,Green Manure,Organic,3 tons/hectare,Basal,Pre-planting,Improves soil fertility,Incorporate well
+
+Tea,Loamy,24,90,45,45,NPK,Chemical,150 kg/hectare,Vegetative,Split application,Improves leaf quality,Avoid excess
+Tea,Loamy,24,90,45,45,Compost,Organic,5 tons/hectare,Basal,Pre-planting,Improves soil health,Use decomposed compost
+
+Coffee,Loamy,23,80,40,40,NPK,Chemical,140 kg/hectare,Vegetative,Split application,Improves bean quality,Avoid overuse
+Coffee,Loamy,23,80,40,40,Organic Mulch,Organic,4 tons/hectare,Basal,Pre-planting,Improves moisture retention,Maintain mulch layer
+
+Rubber,Clayey,28,70,35,35,Urea,Chemical,130 kg/hectare,Vegetative,Split doses,Improves latex yield,Avoid excess
+Rubber,Clayey,28,70,35,35,Compost,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil fertility,Apply evenly
+
+Potato,Loamy,20,100,50,50,NPK,Chemical,160 kg/hectare,Tuber formation,Split application,Boosts tuber growth,Avoid over-irrigation
+Potato,Loamy,20,100,50,50,Vermicompost,Organic,4 tons/hectare,Basal,Pre-planting,Improves aeration,Apply uniformly
+
+Onion,Sandy,25,60,40,40,DAP,Chemical,120 kg/hectare,Basal,Before sowing,Improves bulb size,Avoid excess
+Onion,Sandy,25,60,40,40,Compost,Organic,3 tons/hectare,Basal,Pre-planting,Improves soil,Avoid waterlogging
+
+Tomato,Loamy,26,80,50,40,NPK,Chemical,140 kg/hectare,Flowering,Split application,Improves fruit size,Avoid excess fertilizer
+Tomato,Loamy,26,80,50,40,Vermicompost,Organic,3 tons/hectare,Vegetative,Before irrigation,Improves yield quality,Maintain moisture
+
+Brinjal,Loamy,27,70,40,40,NPK,Chemical,130 kg/hectare,Vegetative,Split application,Improves yield,Avoid excess
+Brinjal,Loamy,27,70,40,40,Compost,Organic,3 tons/hectare,Basal,Pre-planting,Improves soil health,Apply evenly
+
+Cabbage,Clayey,22,90,50,50,NPK,Chemical,150 kg/hectare,Vegetative,Top dressing,Improves head formation,Avoid excess nitrogen
+Cabbage,Clayey,22,90,50,50,Farmyard Manure,Organic,5 tons/hectare,Basal,Pre-planting,Improves fertility,Use composted manure
+
+Cauliflower,Loamy,20,85,45,45,NPK,Chemical,140 kg/hectare,Vegetative,Top dressing,Improves curd quality,Avoid excess
+Cauliflower,Loamy,20,85,45,45,Vermicompost,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil,Avoid waterlogging
+
+Mango,Loamy,30,100,50,50,NPK,Chemical,180 kg/hectare,Flowering,Pre-flowering,Improves fruit set,Avoid overuse
+Mango,Loamy,30,100,50,50,Compost,Organic,5 tons/hectare,Basal,Pre-planting,Improves soil health,Use decomposed compost
+
+Banana,Clayey,28,120,60,60,Urea,Chemical,220 kg/hectare,Vegetative,Split doses,Enhances growth,Avoid excess nitrogen
+Banana,Clayey,28,120,60,60,Vermicompost,Organic,5 tons/hectare,Basal,Pre-planting,Improves nutrients,Maintain moisture
+
+Apple,Loamy,18,80,40,40,NPK,Chemical,150 kg/hectare,Flowering,Pre-flowering,Improves fruit quality,Avoid excess
+Apple,Loamy,18,80,40,40,Organic Mulch,Organic,4 tons/hectare,Basal,Pre-planting,Improves moisture retention,Maintain mulch
+
+Orange,Loamy,25,90,45,45,NPK,Chemical,160 kg/hectare,Flowering,Pre-flowering,Improves fruit yield,Avoid excess
+Orange,Loamy,25,90,45,45,Compost,Organic,5 tons/hectare,Basal,Pre-planting,Improves soil fertility,Use decomposed compost
+
+Grapes,Loamy,24,85,50,50,NPK,Chemical,150 kg/hectare,Flowering,Split application,Improves fruit quality,Avoid overuse
+Grapes,Loamy,24,85,50,50,Vermicompost,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil,Avoid waterlogging
+
+Pineapple,Sandy,27,70,40,40,Urea,Chemical,120 kg/hectare,Vegetative,Split doses,Improves yield,Avoid drought
+Pineapple,Sandy,27,70,40,40,Compost,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil structure,Apply evenly
+
+Guava,Loamy,28,80,40,40,NPK,Chemical,140 kg/hectare,Vegetative,Split application,Improves yield,Avoid excess
+Guava,Loamy,28,80,40,40,Compost,Organic,4 tons/hectare,Basal,Pre-planting,Improves soil health,Use decomposed compost

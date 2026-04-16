@@ -1,0 +1,514 @@
+/* Fertilizer Recommendation Styles - Matching Home Page Format */
+
+.appContainer {
+  min-height: 100vh;
+  background: #F5F5F5;
+}
+
+.pageWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+
+/* Header Section */
+.fertilizerHeader {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px 20px 24px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fertilizerHeaderContent {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.backButton {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.backButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateX(-2px);
+}
+
+.fertilizerTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+}
+
+/* Main Content */
+.mainContent {
+  flex: 1;
+  padding: 0;
+}
+
+.contentWrapper {
+  max-width: 100%;
+}
+
+/* Filters Section */
+.filtersSection {
+  background: white;
+  padding: 20px;
+  margin-bottom: 16px;
+  border-radius: 0;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.filterRow {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  align-items: flex-end;
+}
+
+.filterItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.filterLabel {
+  font-size: 12px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.customSelect {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  background: white;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.customSelect:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.searchButton {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.searchButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.searchButton:active {
+  transform: scale(0.98);
+}
+
+/* Chip Container */
+.chipContainer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filterChip {
+  padding: 8px 16px;
+  border: 1px solid #E0E0E0;
+  border-radius: 20px;
+  background: white;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.filterChip:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.filterChip.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: transparent;
+}
+
+/* Section Title */
+.sectionTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 16px 0;
+  padding: 0 20px;
+}
+
+/* Empty State */
+.emptyState {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.emptyIcon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.emptyTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+
+.emptyText {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+/* Fertilizer List */
+.fertilizerList {
+  padding: 0 20px 20px;
+}
+
+/* Fertilizer Card */
+.fertilizerCard {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.fertilizerCard:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Card Header */
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.fertilizerIcon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.fertilizerInfo {
+  flex: 1;
+}
+
+.fertilizerName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+
+.typeBadge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Fertilizer Details */
+.fertilizerDetails {
+  background: #F8F9FA;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.detailItem:not(:last-child) {
+  border-bottom: 1px solid #E9ECEF;
+}
+
+.detailLabel {
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+}
+
+.detailValue {
+  font-size: 13px;
+  color: #333;
+  font-weight: 600;
+  text-align: right;
+  max-width: 60%;
+}
+
+/* Benefits Section */
+.benefitsSection {
+  margin-bottom: 16px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.benefitIcon {
+  width: 20px;
+  height: 20px;
+  background: #E8F5E9;
+  color: #2E7D32;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sectionLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: #2E7D32;
+}
+
+.benefitsList {
+  margin: 0;
+  padding-left: 28px;
+  list-style: none;
+}
+
+.benefitsList li {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.benefitsList li::before {
+  content: "•";
+  color: #2E7D32;
+  font-weight: bold;
+  position: absolute;
+  left: -16px;
+}
+
+/* Caution Section */
+.cautionSection {
+  background: #FFF8E1;
+  padding: 12px;
+  border-radius: 12px;
+  border-left: 3px solid #FFA726;
+}
+
+.cautionIcon {
+  width: 20px;
+  height: 20px;
+  background: #FFF3E0;
+  color: #F57C00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.cautionLabel {
+  color: #F57C00;
+}
+
+.cautionText {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+  padding-left: 28px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .fertilizerHeader {
+    border-radius: 0 0 24px 24px;
+  }
+
+  .filtersSection {
+    border-radius: 16px;
+    margin: 20px;
+  }
+
+  .fertilizerList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 0 20px 20px;
+  }
+
+  .sectionTitle {
+    grid-column: 1 / -1;
+    padding: 0;
+  }
+
+  .fertilizerCard {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fertilizerHeader {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 40px 28px;
+  }
+
+  .filtersSection {
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+
+  .fertilizerList {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+  }
+
+  .filterRow {
+    max-width: 600px;
+  }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fertilizerCard {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+.fertilizerCard:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.fertilizerCard:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .appContainer {
+    background: #1a1a1a;
+  }
+
+  .filtersSection {
+    background: #2a2a2a;
+  }
+
+  .customSelect {
+    background: #1a1a1a;
+    border-color: #3a3a3a;
+    color: white;
+  }
+
+  .filterChip {
+    background: #2a2a2a;
+    border-color: #3a3a3a;
+    color: #ccc;
+  }
+
+  .fertilizerCard {
+    background: #2a2a2a;
+  }
+
+  .fertilizerName {
+    color: white;
+  }
+
+  .fertilizerDetails {
+    background: #1a1a1a;
+  }
+
+  .detailLabel,
+  .benefitsList li,
+  .cautionText {
+    color: #ccc;
+  }
+
+  .detailValue {
+    color: white;
+  }
+
+  .cautionSection {
+    background: #3a3a2a;
+  }
+
+  .emptyTitle {
+    color: white;
+  }
+
+  .sectionTitle {
+    color: white;
+  }
+}

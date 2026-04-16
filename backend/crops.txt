@@ -1,0 +1,42 @@
+Rice
+Wheat
+Maize
+Barley
+Jowar (Sorghum)
+Bajra (Pearl Millet)
+Ragi (Finger Millet)
+
+Gram (Chana)
+Tur (Arhar)
+Moong
+Urad
+Masoor
+
+Sugarcane
+Cotton
+Jute
+
+Groundnut
+Mustard
+Soybean
+Sunflower
+Sesame (Til)
+
+Tea
+Coffee
+Rubber
+
+Potato
+Onion
+Tomato
+Brinjal
+Cabbage
+Cauliflower
+
+Mango
+Banana
+Apple
+Orange
+Grapes
+Pineapple
+Guava
